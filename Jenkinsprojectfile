@@ -1,8 +1,12 @@
 pipeline {
     agent any
-    parameters {
-        string(name: 'BRANCH_NAME', defaultValue: 'fe/dev', description: 'Specify the branch name to deploy')
-    }
+parameters {
+    choice(
+        name: 'BRANCH_NAME',
+        choices: ['fe/dev', 'fe/qa', 'master'],
+        description: 'Choose an github repo branch'
+    )
+}
     stages {
         stage("GIT checkout") {
             steps {
