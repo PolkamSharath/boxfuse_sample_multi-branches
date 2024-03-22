@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Rajinikanth Cloud DevOps Kitchen</title>
+    <title>Sharath Cloud DevOps </title>
     <style>
         body {
             text-align: center;
@@ -55,7 +55,7 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to Rajinikanth Jenkins 7:30AM qa env deployment   </h1>
+    <h1>Welcome to Sharath Jenkins 7:30AM qa env deployment   </h1>
     <h2>Menu</h2>
 
     <div id="menu">
